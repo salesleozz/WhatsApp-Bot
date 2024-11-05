@@ -19,11 +19,11 @@ for linha in pagina_clientes.iter_rows(min_row=1):
     try:
         link_mensagem_whatsapp = f'https://web.whatsapp.com/send?phone={telefone}&text={quote(mensagem)}'
         webbrowser.open(link_mensagem_whatsapp)
-        sleep(20)
+        sleep(20) #deley enviando a mensagem
         pyautogui.press('enter')
-        sleep(10)
+        sleep(10) #deley para enviar a mensagem
         pyautogui.hotkey('ctrl','w')
-        sleep(5)
+        sleep(5) #deley para fechar a mensagem
     except:
         print(f'Não foi possível enviar mensagem para {telefone}')
         with open('erros.csv','a',newline='',encoding='utf-8') as arquivo:
