@@ -1,18 +1,43 @@
-codigo simples e facil para automatizar disparos de mensagens no whatsapp, no qual ele consulta uma tabela do excel na qual possui os numeros que irao receber as mensagens de disparos
+# 📱 Automação de Disparo de Mensagens no WhatsApp via Excel
 
-como utilizar
-- configurar o excel com os telefones ( todos devem estar dessa forma 55DD99999-9999 ex = 551198988-9090 ), todos os telefones na mesma coluna ou seja um em baixo do outro, o nome da pagina do excel deve ser chamada de "Telefones" e o do arquivo "Contatos"
-- em "mensagem" voce deve alterar o que sera enviado para os contato, ou seja, sera a mensagem que o telefone ira receber
-- apos tudo isso, abra seu navegador e scaneie o qr code do WhatsApp web
-- apos scanear e so iniciar o codigo que ele ira começar a disparar as mensagens sozinho 
-- caso queira diminuir ou aumentar o tempo entre as mensagem essa funçao esta comentada no codigo
+## 📝 Descrição
 
+Este é um código simples e fácil para automatizar o envio de mensagens no WhatsApp. Ele consulta uma tabela em Excel que contém os números que irão receber as mensagens.
 
-Here is a simple and easy code to automate sending messages on WhatsApp, which reads from an Excel table containing the numbers to receive the messages.
+---
 
-How to use:
-- Set up the Excel file with the phone numbers (all numbers should be in the format 55DD99999-9999, e.g., 551198988-9090), with each number in the same column, one below the other. The sheet in the Excel file should be named "Telefones," and the file itself should be named "Contatos."
-- In the "message" variable, set the text you want to send to each contact. This will be the message that each phone number receives.
-- Open your browser and scan the QR code on WhatsApp Web.
-- Once the QR code is scanned, run the code, and it will start sending messages automatically.
-- If you want to decrease or increase the time interval between each message, this setting is included in the code as a comment.
+## 🚀 Como utilizar
+
+- 📄 Configure o arquivo Excel chamado **Contatos.xlsx**.  
+- 📊 A planilha deve ser chamada **Telefones**.  
+- 📞 Insira os números de telefone na mesma coluna, um embaixo do outro, no formato:  
+  `55DD99999-9999` (exemplo: `551198988-9090`).  
+- ✍️ No código, altere a variável **mensagem** para definir o texto que será enviado para cada contato.  
+- 🌐 Abra seu navegador e acesse o **WhatsApp Web**.  
+- 📷 Faça o scan do QR Code para autenticar sua conta.  
+- ▶️ Depois de autenticar, execute o código e ele começará a enviar as mensagens automaticamente.  
+- ⏳ Se quiser ajustar o tempo entre os envios, há uma função comentada no código para controlar o delay entre mensagens.
+
+---
+
+# 📱 WhatsApp Message Automation Using Excel
+
+## 📝 Description
+
+Here is a simple and easy code to automate sending messages on WhatsApp. It reads from an Excel table containing the numbers to receive the messages.
+
+---
+
+## 🚀 How to Use
+
+- 📄 Set up the Excel file named **Contatos.xlsx**.  
+- 📊 The worksheet should be named **Telefones**.  
+- 📞 Enter phone numbers in the same column, one below the other, formatted as:  
+  `55DD99999-9999` (example: `551198988-9090`).  
+- ✍️ In the code, change the **message** variable to set the text that will be sent to each contact.  
+- 🌐 Open your browser and go to **WhatsApp Web**.  
+- 📷 Scan the QR Code to authenticate your account.  
+- ▶️ After authentication, run the code and it will start sending messages automatically.  
+- ⏳ To adjust the time between messages, there is a commented function in the code to control the delay.
+
+---
